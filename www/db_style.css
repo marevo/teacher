@@ -1,0 +1,141 @@
+body{
+    background-color:whitesmoke;
+}
+input, select{
+    // color:#293133;
+     color:#1C1C1C;
+}
+input{
+    text-align: center;
+}
+input[type="button"]{
+      cursor:pointer;
+}
+#div_0{
+    width:1024px;
+    margin:0px auto;
+    border:1px solid silver;
+    border-radius:4px;
+    box-sizing:content-box;
+}
+#notice_st{
+    display:  table;
+    border: 1px solid black;
+    border-collapse: collapse;/*не работает */
+
+}
+#notice_st_shapka, #notice_st_body{
+    /*background-color: #2aabd2;*/
+    display: table-row;
+}
+    #notice_st_shapka div, #notice_st_body div{
+        display: table-cell;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+
+
+/*#slider{
+    width:420px;
+    height: 250px;
+    float: left;
+}
+#nad_menu_row{
+    height: 250px;
+    width: 280px;
+    float: left;
+    text-align: center;
+}
+#menu_row{
+    float: left;
+    width: 600px;
+    display:table;
+    display:table-row;
+    margin:0px auto;
+    border:1px solid #e3fff4;
+    border-radius:0px;
+    box-sizing:content-box;
+}
+#menu_row input{
+    height: 30px;
+}
+*/
+
+#shapka  td{
+    background-color: #ffe79b;
+    border-radius:4px;
+    border:1px solid darkblue;
+    vertical-align:middle;
+    text-align:center;
+}
+table{
+    /*width :800px;*/
+    box-sizing:border-box;
+    border-collapse:collapse;
+}
+
+input[type="button"]{
+     height: 5%;
+     cursor:pointer;
+    cursor: inherit;
+ }
+td, th {
+    text-align: center;
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid #000; /* Параметры рамки */
+
+}
+tbody tr:hover {
+    /*width: 1024px;*/
+   // background-color: #ffe; /* Цвет фона при наведении  почему то не работает*/
+  //  color: #9135ff; /* Цвет текста при наведении */
+}
+ #content_1  td{
+     /*width: 1024px;*/
+    //margin:0px auto;
+   // border:1px solid silver;
+   // box-sizing:border-box;
+   // vertical-align:middle;
+   // text-align:center;
+    //background-color:#e3fff4;
+}
+#content_0{
+     width: 1024px;
+     /*height: 250px*/;
+     float: left;
+    background-color:green;
+ }
+
+
+#futer{
+	 height:60px;
+	 background-color: #ffe79b;
+ }
+
+/* Custom button
+-------------------------------------------------- */
+
+/* Override base .btn styles */
+/* Apply text and background changes to three key states: default, hover, and active (click). */
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #007da7;
+}
+
+/* Apply the custom-colored gradients */
+/* Note: you'll need to include all the appropriate gradients for various browsers and standards. */
+.btn-ttc {
+    background-repeat: repeat-x;
+    background-image: linear-gradient(top, #009ED2 0%, #007DA7 100%);
+...
+}
+
+/* Set the hover state */
+/* An easy hover state is just to move the gradient up a small amount. Add other embellishments as you see fit. */
+.btn-ttc:hover {
+    background-position: 0 -15px;
+}
